@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alex Morgan — Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #fafaf8;
+      --surface: #f2f1ee;
+      --border: #e0dfd9;
+      --text: #1a1a18;
+      --muted: #6b6b66;
+      --accent: #1a1a18;
+      --accent-light: #e8e7e3;
+      --tag-bg: #efefeb;
+      --tag-text: #44443f;
+      --link: #2a5fa5;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #141412;
+        --surface: #1e1e1b;
+        --border: #2e2e2a;
+        --text: #f0efe9;
+        --muted: #9a9990;
+        --accent: #f0efe9;
+        --accent-light: #232320;
+        --tag-bg: #272724;
+        --tag-text: #c8c7bf;
+        --link: #7aabf0;
+      }
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      color: var(--text);
+      background: var(--bg);
+    }
+
+    /* ─── NAV ─── */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+      padding: 0 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+    }
+
+    .nav-logo {
+      font-family: 'DM Serif Display', serif;
+      font-size: 18px;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.01em;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      font-size: 14px;
+      font-weight: 400;
+      color: var(--muted);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+
+    .nav-links a:hover { color: var(--text); }
+
+    /* ─── HERO ─── */
+    .hero {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 7rem 2rem 5rem;
+    }
+
+    .hero-eyebrow {
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 1.25rem;
+    }
+
+    .hero h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(2.4rem, 5vw, 3.6rem);
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      color: var(--text);
+      margin-bottom: 1.5rem;
+    }
+
+    .hero h1 em {
+      font-style: italic;
+      color: var(--muted);
+    }
+
+    .hero-desc {
+      font-size: 18px;
+      font-weight: 300;
+      color: var(--muted);
+      max-width: 540px;
+      margin-bottom: 2.5rem;
+      line-height: 1.65;
+    }
+
+    .hero-cta {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.65rem 1.5rem;
+      border-radius: 4px;
+      font-size: 14px;
+      font-weight: 500;
+      text-decoration: none;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+
+    .btn-primary {
+      background: var(--text);
+      color: var(--bg);
+      border: 1px solid var(--text);
+    }
+
+    .btn-primary:hover { opacity: 0.85; }
+
+    .btn-ghost {
+      background: transparent;
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+
+    .btn-ghost:hover { background: var(--surface); }
+
+    /* ─── SECTION SHELL ─── */
+    section {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 5rem 2rem;
+      border-top: 1px solid var(--border);
+    }
+
+    .section-label {
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 2.5rem;
+    }
+
+    h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.9rem;
+      letter-spacing: -0.015em;
+      line-height: 1.2;
+      color: var(--text);
+      margin-bottom: 1.25rem;
+    }
+
+    p { color: var(--muted); margin-bottom: 1rem; }
+    p:last-child { margin-bottom: 0; }
+
+    /* ─── ABOUT ─── */
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      align-items: start;
+    }
+
+    @media (max-width: 600px) {
+      .about-grid { grid-template-columns: 1fr; gap: 2rem; }
+    }
+
+    .about-facts {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .fact-item {
+      padding: 1rem 1.25rem;
+      background: var(--surface);
+      border-radius: 6px;
+    }
+
+    .fact-label {
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0.25rem;
+    }
+
+    .fact-value {
+      font-size: 15px;
+      color: var(--text);
+      font-weight: 400;
+    }
+
+    /* ─── PROJECTS ─── */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.25rem;
+    }
+
+    @media (max-width: 600px) {
+      .projects-grid { grid-template-columns: 1fr; }
+    }
+
+    .project-card {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem;
+      background: var(--bg);
+      transition: border-color 0.15s, background 0.15s;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .project-card:hover {
+      border-color: var(--text);
+      background: var(--surface);
+    }
+
+    .project-card h3 {
+      font-size: 16px;
+      font-weight: 500;
+      color: var(--text);
+    }
+
+    .project-card p {
+      font-size: 14px;
+      color: var(--muted);
+      margin: 0;
+      line-height: 1.6;
+    }
+
+    .project-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: auto;
+      padding-top: 0.5rem;
+    }
+
+    .tag {
+      font-size: 12px;
+      font-weight: 400;
+      padding: 3px 10px;
+      border-radius: 3px;
+      background: var(--tag-bg);
+      color: var(--tag-text);
+    }
+
+    .project-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      color: var(--link);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .project-link:hover { text-decoration: underline; }
+
+    /* ─── SKILLS ─── */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1.25rem;
+    }
+
+    .skill-group h3 {
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0.75rem;
+    }
+
+    .skill-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+    }
+
+    .skill-list li {
+      font-size: 15px;
+      color: var(--text);
+      padding: 0.35rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .skill-list li:last-child { border-bottom: none; }
+
+    /* ─── EXPERIENCE ─── */
+    .timeline {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .timeline-item {
+      display: grid;
+      grid-template-columns: 140px 1fr;
+      gap: 2rem;
+      padding: 2rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .timeline-item:last-child { border-bottom: none; }
+
+    @media (max-width: 600px) {
+      .timeline-item { grid-template-columns: 1fr; gap: 0.5rem; }
+    }
+
+    .timeline-date {
+      font-size: 13px;
+      color: var(--muted);
+      padding-top: 2px;
+      font-weight: 300;
+    }
+
+    .timeline-body h3 {
+      font-size: 17px;
+      font-weight: 500;
+      color: var(--text);
+      margin-bottom: 0.2rem;
+    }
+
+    .timeline-company {
+      font-size: 14px;
+      color: var(--link);
+      margin-bottom: 0.75rem;
+      font-weight: 400;
+    }
+
+    .timeline-body p {
+      font-size: 14px;
+      color: var(--muted);
+      line-height: 1.65;
+      margin: 0;
+    }
+
+    /* ─── CONTACT ─── */
+    .contact-inner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      align-items: start;
+    }
+
+    @media (max-width: 600px) {
+      .contact-inner { grid-template-columns: 1fr; gap: 2rem; }
+    }
+
+    .contact-links {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .contact-link {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.9rem 1.1rem;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      text-decoration: none;
+      color: var(--text);
+      font-size: 14px;
+      font-weight: 500;
+      transition: all 0.15s;
+      background: var(--bg);
+    }
+
+    .contact-link:hover {
+      background: var(--surface);
+      border-color: var(--text);
+    }
+
+    .contact-link svg {
+      width: 18px;
+      height: 18px;
+      color: var(--muted);
+      flex-shrink: 0;
+    }
+
+    .contact-link span { flex: 1; }
+    .contact-link small { color: var(--muted); font-weight: 300; font-size: 13px; }
+
+    /* ─── FOOTER ─── */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 2rem;
+      text-align: center;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    /* ─── ANIMATIONS ─── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .hero > * {
+      animation: fadeUp 0.6s ease both;
+    }
+
+    .hero-eyebrow { animation-delay: 0.05s; }
+    .hero h1      { animation-delay: 0.15s; }
+    .hero-desc    { animation-delay: 0.25s; }
+    .hero-cta     { animation-delay: 0.35s; }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#" class="nav-logo">AM</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <div class="hero">
+    <p class="hero-eyebrow">Available for new opportunities</p>
+    <h1>Hi, I'm Alex Morgan —<br><em>software engineer</em></h1>
+    <p class="hero-desc">
+      I build thoughtful, performant web applications with a focus on clean architecture and delightful user experiences. Based in San Francisco.
+    </p>
+    <div class="hero-cta">
+      <a href="#projects" class="btn btn-primary">View my work</a>
+      <a href="#contact" class="btn btn-ghost">Get in touch</a>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <p class="section-label">About me</p>
+    <div class="about-grid">
+      <div>
+        <h2>Building things that matter</h2>
+        <p>
+          I'm a software engineer with 6+ years of experience designing and building scalable web products. I care deeply about the craft — writing code that is readable, tested, and maintainable.
+        </p>
+        <p>
+          Outside of work I enjoy hiking, photography, and contributing to open-source projects. I believe the best software is built by people who genuinely understand what they're making and why.
+        </p>
+      </div>
+      <div class="about-facts">
+        <div class="fact-item">
+          <p class="fact-label">Location</p>
+          <p class="fact-value">San Francisco, CA</p>
+        </div>
+        <div class="fact-item">
+          <p class="fact-label">Experience</p>
+          <p class="fact-value">6+ years</p>
+        </div>
+        <div class="fact-item">
+          <p class="fact-label">Focus</p>
+          <p class="fact-value">Full-stack web, TypeScript, systems</p>
+        </div>
+        <div class="fact-item">
+          <p class="fact-label">Currently</p>
+          <p class="fact-value">Open to new roles</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <p class="section-label">Selected projects</p>
+    <h2>What I've built</h2>
+    <br />
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <h3>Bulletin — Real-time collaboration</h3>
+        <p>A multiplayer document editor with live presence, conflict resolution, and inline comments. Built for teams that need speed without compromise.</p>
+        <div class="project-tags">
+          <span class="tag">React</span>
+          <span class="tag">WebSockets</span>
+          <span class="tag">Postgres</span>
+        </div>
+        <a href="#" class="project-link">View project →</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Driftlog — Personal finance tracker</h3>
+        <p>A privacy-first budgeting tool with no third-party integrations. Import via CSV, visualize trends, and set long-term savings goals.</p>
+        <div class="project-tags">
+          <span class="tag">Next.js</span>
+          <span class="tag">SQLite</span>
+          <span class="tag">D3</span>
+        </div>
+        <a href="#" class="project-link">View project →</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Strata — Design system</h3>
+        <p>An accessible, themeable component library used across three internal products. Fully documented with Storybook and 98% test coverage.</p>
+        <div class="project-tags">
+          <span class="tag">TypeScript</span>
+          <span class="tag">Storybook</span>
+          <span class="tag">Vitest</span>
+        </div>
+        <a href="#" class="project-link">View project →</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Pathfinder — CLI tool</h3>
+        <p>A developer tool for visualising module dependency graphs in large monorepos. Helps teams spot circular deps and dead code instantly.</p>
+        <div class="project-tags">
+          <span class="tag">Node.js</span>
+          <span class="tag">Rust</span>
+          <span class="tag">CLI</span>
+        </div>
+        <a href="#" class="project-link">View project →</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <p class="section-label">Skills</p>
+    <h2>Tools of the trade</h2>
+    <br />
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h3>Frontend</h3>
+        <ul class="skill-list">
+          <li>React / Next.js</li>
+          <li>TypeScript</li>
+          <li>CSS / Tailwind</li>
+          <li>Testing (Vitest, Playwright)</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>Backend</h3>
+        <ul class="skill-list">
+          <li>Node.js / Express</li>
+          <li>PostgreSQL / SQLite</li>
+          <li>REST & GraphQL APIs</li>
+          <li>Redis / queues</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>Platform</h3>
+        <ul class="skill-list">
+          <li>AWS / Vercel</li>
+          <li>Docker / CI/CD</li>
+          <li>GitHub Actions</li>
+          <li>Monitoring (Datadog)</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>Practices</h3>
+        <ul class="skill-list">
+          <li>Agile / Scrum</li>
+          <li>Code review</li>
+          <li>Technical writing</li>
+          <li>Mentorship</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <p class="section-label">Experience</p>
+    <h2>Where I've worked</h2>
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="timeline-date">2022 – Present</div>
+        <div class="timeline-body">
+          <h3>Senior Software Engineer</h3>
+          <p class="timeline-company">Acme Corp · San Francisco, CA</p>
+          <p>Led development of the core editor product, growing the team from 3 to 9 engineers. Reduced page load time by 40% through targeted refactoring and caching improvements. Established code review culture and onboarding documentation.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">2019 – 2022</div>
+        <div class="timeline-body">
+          <h3>Software Engineer</h3>
+          <p class="timeline-company">Horizon Labs · Remote</p>
+          <p>Built and maintained a customer-facing analytics dashboard used by 12,000+ users. Owned the full stack from database schema to React components. Collaborated with design and product weekly in an agile process.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">2018 – 2019</div>
+        <div class="timeline-body">
+          <h3>Junior Developer</h3>
+          <p class="timeline-company">Blueridge Studio · Austin, TX</p>
+          <p>Developed marketing sites and interactive prototypes for agency clients. First production experience with React, REST APIs, and version control workflows.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <p class="section-label">Contact</p>
+    <div class="contact-inner">
+      <div>
+        <h2>Let's work together</h2>
+        <p>I'm open to full-time roles, contract projects, and interesting conversations. The best way to reach me is by email.</p>
+      </div>
+      <div class="contact-links">
+        <a href="mailto:alex@example.com" class="contact-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0l-9.75 7.5-9.75-7.5"/></svg>
+          <span>Email</span>
+          <small>alex@example.com</small>
+        </a>
+        <a href="https://github.com/alexmorgan" target="_blank" rel="noopener" class="contact-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+          <span>GitHub</span>
+          <small>@alexmorgan</small>
+        </a>
+        <a href="https://linkedin.com/in/alexmorgan" target="_blank" rel="noopener" class="contact-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          <span>LinkedIn</span>
+          <small>/in/alexmorgan</small>
+        </a>
+        <a href="/resume.pdf" class="contact-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"/></svg>
+          <span>Résumé</span>
+          <small>Download PDF</small>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Alex Morgan · Built with HTML &amp; CSS · Hosted on GitHub Pages</p>
+  </footer>
+
+</body>
+</html>
