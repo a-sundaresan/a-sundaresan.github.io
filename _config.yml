@@ -1,0 +1,15 @@
+title: Alex Morgan
+description: Software Engineer — Portfolio
+url: "https://a-sundaresan.github.io"
+baseurl: ""
+
+theme: minima
+
+author:
+  name: Alex Morgan
+  email: alex@example.com
+  github: a-sundaresan
+  linkedin: alexmorgan
+
+markdown: kramdown
+permalink: pretty
