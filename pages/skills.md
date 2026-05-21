@@ -65,8 +65,7 @@ permalink: /skills/
   <div class="skill-group">
     <h3>Single-cell & Epigenomics</h3>
     <ul>
-      <li>Seurat, Scanpy</li>
-      <li>Monocle, ArchR, Signac</li>
+      <li>Seurat, Cell Ranger</li>
       <li>MACS2/3, deepTools</li>
       <li>HOMER, Bowtie2</li>
     </ul>
