@@ -5,9 +5,9 @@ title: Home
 
 <span class="eyebrow">Available for new opportunities</span>
 
-# Hi, I'm Alex Morgan — *software engineer*
+# Hi, I'm Aishwarya Sundaresan — *computational biologist*
 
-I build thoughtful, performant web applications with a focus on clean architecture and delightful user experiences. Based in San Francisco.
+I build robust bioinformatics pipelines and apply machine learning to multi-omics data to uncover biological insights. Based in San Francisco.
 
 <div class="cta-group">
   <a href="/about/" class="btn btn-primary">Learn about me</a>
