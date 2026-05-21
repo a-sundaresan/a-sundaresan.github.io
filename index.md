@@ -5,9 +5,9 @@ title: Home
 
 <span class="eyebrow">Available for new opportunities</span>
 
-# Hi, I'm Aishwarya Sundaresan — *computational biologist*
+# Hi, I'm Aishwarya Sundaresan — *computational biologist building AI-powered science*
 
-I build robust bioinformatics pipelines and apply machine learning to multi-omics data to uncover biological insights. Based in San Francisco.
+I build robust bioinformatics pipelines and apply machine learning to multi-omics data to uncover biological insights.
 
 <div class="cta-group">
   <a href="/about/" class="btn btn-primary">Learn about me</a>
