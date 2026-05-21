@@ -11,8 +11,8 @@ permalink: /contact/
 I'm open to full-time roles, contract projects, and interesting conversations. The best way to reach me is by email.
 
 <div class="contact-links">
-  <a href="mailto:alex@example.com" class="contact-link">
-    📧 <span>Email</span> <small>alex@example.com</small>
+  <a href="mailto:asundaresan@proton.me" class="contact-link">
+    📧 <span>Email</span> <small>asundaresan@proton.me</small>
   </a>
   <a href="https://github.com/a-sundaresan" target="_blank" rel="noopener" class="contact-link">
     💻 <span>GitHub</span> <small>@a-sundaresan</small>
