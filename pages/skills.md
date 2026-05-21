@@ -18,6 +18,7 @@ permalink: /skills/
       <li>Deep learning & neural networks</li>
       <li>Probabilistic & Bayesian modelling</li>
       <li>Pattern recognition & data mining</li>
+      <li>LLM & generative AI integration</li>
       <li>Agentic AI workflow design</li>
     </ul>
   </div>
@@ -28,6 +29,7 @@ permalink: /skills/
       <li>Single-cell & single-nucleus: scRNA-seq, scATAC-seq, snRNA-seq</li>
       <li>Proteomics data analysis</li>
       <li>GWAS, meta-analysis & population genomics</li>
+      <li>Multi-omics data integration</li>
     </ul>
   </div>
   <div class="skill-group">
@@ -35,6 +37,7 @@ permalink: /skills/
     <ul>
       <li>Python & R (primary)</li>
       <li>SQL & Java</li>
+      <li>Bash / Shell scripting</li>
       <li>Nextflow pipeline development</li>
       <li>Docker & Git</li>
     </ul>
@@ -42,10 +45,21 @@ permalink: /skills/
   <div class="skill-group">
     <h3>Cloud & HPC</h3>
     <ul>
+      <li>Linux / Unix systems</li>
       <li>AWS cloud infrastructure</li>
       <li>HPC job scheduling (SLURM, SGE)</li>
       <li>Scalable workflow optimisation</li>
       <li>Reproducible & containerised pipelines</li>
+    </ul>
+  </div>
+  <div class="skill-group">
+    <h3>Statistics & Data</h3>
+    <ul>
+      <li>Biostatistics & regression analysis</li>
+      <li>Survival & longitudinal data analysis</li>
+      <li>Biomarker development & calibration</li>
+      <li>PostgreSQL / MySQL</li>
+      <li>Large-scale omics data management</li>
     </ul>
   </div>
 </div>
@@ -59,6 +73,7 @@ permalink: /skills/
       <li>GATK, FreeBayes, Picard</li>
       <li>PLINK, METAL</li>
       <li>BWA, STAR, HISAT2</li>
+      <li>samtools, bcftools, bedtools</li>
       <li>Salmon</li>
       <li>Trimmomatic, FastQC</li>
     </ul>
