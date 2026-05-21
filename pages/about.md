@@ -12,7 +12,7 @@ I'm a computational biologist with over a decade of experience at the intersecti
 
 I've worked across leading research institutions including The Scripps Research Institute, UT Southwestern Medical Center, and the University of Alabama at Birmingham, contributing to studies in cancer biology, epigenetics, reproductive biology, and immunology. My research has been published in journals including *Nature Communications*, *NPJ Genomic Medicine*, *Genome Medicine*, and *Annals of the Rheumatic Diseases*, accumulating 432 citations.
 
-Increasingly, I'm applying my computational background to building AI agentic workflows — systems that automate complex, multi-step scientific analyses and bring the power of large language models into biological research pipelines. My current focus is developing a LangChain-based agent that automates end-to-end bulk RNA-seq analysis, from raw data processing to differential expression and pathway interpretation. I believe the next frontier in computational biology lies at the convergence of traditional bioinformatics and modern AI.
+Increasingly, I'm applying my computational background to building AI agentic workflows — systems that automate complex, multi-step scientific analyses and bring the power of large language models into biological research pipelines. My current focus is developing an Anthropic SDK-based agent that automates end-to-end bulk RNA-seq analysis, from raw data processing to differential expression and pathway interpretation. I believe the next frontier in computational biology lies at the convergence of traditional bioinformatics and modern AI.
 
 I care deeply about reproducible science, well-documented code, and tools that empower researchers to explore data without barriers.
 
@@ -23,6 +23,6 @@ I care deeply about reproducible science, well-documented code, and tools that e
 | **Current role** | HPC Engineer – Bioinformatics Specialist, The Scripps Research Institute |
 | **Experience** | 12+ years |
 | **Expertise** | Multi-omics, NGS, single-cell, GWAS, ML/AI |
-| **Also building** | LangChain agent for automated bulk RNA-seq workflows |
+| **Also building** | Anthropic SDK agent for automated bulk RNA-seq workflows |
 | **Publications** | 20+ peer-reviewed papers, 432 citations |
 | **Currently** | Open to new roles & collaborations |
