@@ -8,6 +8,25 @@ permalink: /projects/
 
 # What I've built
 
+## Pipelines & Tools
+
+<div class="card">
+  <h3>Bulk RNA-seq DE Analysis — R Shiny App</h3>
+  <p>A browser-based interactive tool for end-to-end differential expression analysis of bulk RNA-seq data. Upload your own count matrix and metadata, select comparison groups, and instantly get DESeq2 results alongside PCA, MA, and Volcano plots — no local R installation needed.</p>
+  <div class="tags">
+    <span class="tag">R</span>
+    <span class="tag">Shiny</span>
+    <span class="tag">DESeq2</span>
+    <span class="tag">Bioconductor</span>
+    <span class="tag">ggplot2</span>
+  </div>
+  <a href="https://a-sundaresan.shinyapps.io/BulkRNASeq_downstream_processing_after_quantification/" target="_blank" rel="noopener">Live app →</a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/a-sundaresan/RShinyApps-BulkRNASeqDEAnalysis" target="_blank" rel="noopener">View code →</a>
+</div>
+
+## Research Projects
+
 <div class="card">
   <h3>Bulletin — Real-time collaboration</h3>
   <p>A multiplayer document editor with live presence, conflict resolution, and inline comments. Built for teams that need speed without compromise.</p>
