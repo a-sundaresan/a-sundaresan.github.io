@@ -76,7 +76,7 @@ permalink: /skills/
       <li>DESeq2, edgeR, limma</li>
       <li>clusterProfiler, GSEA</li>
       <li>EnhancedVolcano</li>
-      <li>fgsea, ReactomePA</li>
+      <li>fgsea</li>
     </ul>
   </div>
   <div class="skill-group">
