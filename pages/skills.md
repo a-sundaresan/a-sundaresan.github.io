@@ -27,7 +27,7 @@ permalink: /skills/
       <li>Bulk NGS: RNA-seq, ATAC-seq, ChIP-seq, CUT&amp;RUN</li>
       <li>Single-cell & single-nucleus: scRNA-seq, scATAC-seq, snRNA-seq</li>
       <li>Proteomics data analysis</li>
-      <li>GWAS & population genomics</li>
+      <li>GWAS, meta-analysis & population genomics</li>
     </ul>
   </div>
   <div class="skill-group">
