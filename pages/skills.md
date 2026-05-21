@@ -58,7 +58,6 @@ permalink: /skills/
       <li>Biostatistics & regression analysis</li>
       <li>Survival & longitudinal data analysis</li>
       <li>Biomarker development & calibration</li>
-      <li>PostgreSQL / MySQL</li>
       <li>Large-scale omics data management</li>
     </ul>
   </div>
