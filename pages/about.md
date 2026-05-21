@@ -16,7 +16,7 @@ Outside of work I enjoy hiking, photography, and contributing to open-source pro
 
 | | |
 |---|---|
-| **Location** | San Francisco, CA |
 | **Experience** | 10+ years |
 | **Focus** | Computational biology, genomics, multi-omics |
+| **Also building** | AI agentic workflows |
 | **Currently** | Open to new roles |
