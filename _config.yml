@@ -1,15 +1,15 @@
-title: Alex Morgan
-description: Software Engineer — Portfolio
+title: Aishwarya Sundaresan
+description: Computational Biologist — Portfolio
 url: "https://a-sundaresan.github.io"
 baseurl: ""
 
 theme: minima
 
 author:
-  name: Alex Morgan
-  email: alex@example.com
+  name: Aishwarya Sundaresan
+  email: asundaresan@proton.me
   github: a-sundaresan
-  linkedin: alexmorgan
+  linkedin: a-sundaresan
 
 markdown: kramdown
 permalink: pretty
