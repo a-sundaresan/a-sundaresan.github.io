@@ -12,38 +12,38 @@ permalink: /skills/
   <div class="skill-group">
     <h3>AI/ML & Advanced Analytics</h3>
     <ul>
-      <li>Regression & clustering</li>
-      <li>Neural networks</li>
-      <li>Bayesian models</li>
-      <li>Data mining</li>
-      <li>AI agentic workflows</li>
+      <li>Supervised & unsupervised learning</li>
+      <li>Deep learning & neural networks</li>
+      <li>Probabilistic & Bayesian modelling</li>
+      <li>Pattern recognition & data mining</li>
+      <li>Agentic AI workflow design</li>
     </ul>
   </div>
   <div class="skill-group">
     <h3>Bioinformatics & Genomics</h3>
     <ul>
-      <li>NGS: RNA-seq, ATAC-seq, ChIP-seq, CUT&amp;RUN</li>
-      <li>Single-cell: scRNA, scATAC, snRNA</li>
-      <li>Proteomics</li>
-      <li>GWAS</li>
+      <li>Bulk NGS: RNA-seq, ATAC-seq, ChIP-seq, CUT&amp;RUN</li>
+      <li>Single-cell & single-nucleus: scRNA-seq, scATAC-seq, snRNA-seq</li>
+      <li>Proteomics data analysis</li>
+      <li>GWAS & population genomics</li>
     </ul>
   </div>
   <div class="skill-group">
-    <h3>Data Science Platforms</h3>
+    <h3>Languages & Tools</h3>
     <ul>
-      <li>Python, R, SQL, Java</li>
-      <li>Docker &amp; Git</li>
-      <li>Nextflow</li>
-      <li>AWS</li>
+      <li>Python & R (primary)</li>
+      <li>SQL & Java</li>
+      <li>Nextflow pipeline development</li>
+      <li>Docker & Git</li>
     </ul>
   </div>
   <div class="skill-group">
     <h3>Cloud & HPC</h3>
     <ul>
-      <li>AWS cloud computing</li>
-      <li>HPC clusters (SLURM, SGE)</li>
-      <li>Workflow optimization</li>
-      <li>Pipeline development</li>
+      <li>AWS cloud infrastructure</li>
+      <li>HPC job scheduling (SLURM, SGE)</li>
+      <li>Scalable workflow optimisation</li>
+      <li>Reproducible & containerised pipelines</li>
     </ul>
   </div>
 </div>
