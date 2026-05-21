@@ -82,9 +82,9 @@ permalink: /skills/
   <div class="skill-group">
     <h3>Visualisation & Workflow</h3>
     <ul>
-      <li>ggplot2, matplotlib, seaborn</li>
+      <li>ggplot2, matplotlib</li>
       <li>R Shiny</li>
-      <li>Snakemake, Nextflow</li>
+      <li>Nextflow</li>
       <li>Conda, Singularity</li>
     </ul>
   </div>
