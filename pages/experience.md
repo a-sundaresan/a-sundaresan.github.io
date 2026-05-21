@@ -67,6 +67,6 @@ permalink: /experience/
   <div class="timeline-body">
     <h3>Systems Engineer</h3>
     <span class="timeline-company">TATA Consultancy Services Limited · India</span>
-    <p>Worked as a systems engineer on enterprise software projects, building a foundation in large-scale software development, system design, and collaborative engineering practices.</p>
+    <p>Worked as a systems engineer on enterprise software projects, building a foundation in large-scale software development, system design, and collaborative engineering practices. Achieved Oracle Certified Java Programmer certification (2010).</p>
   </div>
 </div>
