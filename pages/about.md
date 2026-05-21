@@ -14,7 +14,7 @@ I've worked across leading research institutions including The Scripps Research 
 
 Increasingly, I'm applying my computational background to building AI agentic workflows — systems that automate complex, multi-step scientific analyses and bring the power of large language models into biological research pipelines. I believe the next frontier in computational biology lies at the convergence of traditional bioinformatics and modern AI.
 
-I care deeply about reproducible science, well-documented code, and tools that empower researchers to explore data without barriers — as reflected in my open-source R Shiny app for bulk RNA-seq differential expression analysis.
+I care deeply about reproducible science, well-documented code, and tools that empower researchers to explore data without barriers.
 
 ## Quick facts
 
