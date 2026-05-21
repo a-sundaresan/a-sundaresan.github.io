@@ -9,28 +9,64 @@ permalink: /experience/
 # Where I've worked
 
 <div class="timeline-item">
-  <div class="timeline-date">2022 – Present</div>
+  <div class="timeline-date">2025 – Present</div>
   <div class="timeline-body">
-    <h3>Senior Software Engineer</h3>
-    <span class="timeline-company">Acme Corp · San Francisco, CA</span>
-    <p>Led development of the core editor product, growing the team from 3 to 9 engineers. Reduced page load time by 40% through targeted refactoring and caching improvements. Established code review culture and onboarding documentation.</p>
+    <h3>HPC Engineer – Bioinformatics Specialist</h3>
+    <span class="timeline-company">High Performance Computing · The Scripps Research Institute</span>
+    <p>Supporting and advancing HPC infrastructure for large-scale bioinformatics workloads, optimising computational pipelines and workflows across the institute's research community.</p>
   </div>
 </div>
 
 <div class="timeline-item">
-  <div class="timeline-date">2019 – 2022</div>
+  <div class="timeline-date">2021 – 2025</div>
   <div class="timeline-body">
-    <h3>Software Engineer</h3>
-    <span class="timeline-company">Horizon Labs · Remote</span>
-    <p>Built and maintained a customer-facing analytics dashboard used by 12,000+ users. Owned the full stack from database schema to React components. Collaborated with design and product weekly in an agile process.</p>
+    <h3>Bioinformatics Analyst III</h3>
+    <span class="timeline-company">Center for Computational Biology and Bioinformatics · The Scripps Research Institute</span>
+    <p>Led end-to-end analysis of multi-omics datasets including bulk and single-cell sequencing. Developed scalable pipelines for NGS data processing and contributed to multiple high-impact publications across cancer biology and immunology.</p>
   </div>
 </div>
 
 <div class="timeline-item">
-  <div class="timeline-date">2018 – 2019</div>
+  <div class="timeline-date">2018 – 2021</div>
   <div class="timeline-body">
-    <h3>Junior Developer</h3>
-    <span class="timeline-company">Blueridge Studio · Austin, TX</span>
-    <p>Developed marketing sites and interactive prototypes for agency clients. First production experience with React, REST APIs, and version control workflows.</p>
+    <h3>Computational Biologist II</h3>
+    <span class="timeline-company">Cecil H. and Ida Green Center for Reproductive Biology Sciences · UT Southwestern Medical Center</span>
+    <p>Applied computational genomics approaches to reproductive biology research, including chromatin accessibility profiling and transcriptomic analysis of ovarian and epigenetic datasets.</p>
+  </div>
+</div>
+
+<div class="timeline-item">
+  <div class="timeline-date">2015 – 2018</div>
+  <div class="timeline-body">
+    <h3>Bioinformatician I</h3>
+    <span class="timeline-company">Department of Biostatistics, School of Public Health · University of Alabama at Birmingham</span>
+    <p>Performed genomic and statistical analyses supporting population-level studies, including GWAS and transcriptomic profiling across cancer and cardiovascular disease cohorts.</p>
+  </div>
+</div>
+
+<div class="timeline-item">
+  <div class="timeline-date">2014 – 2015</div>
+  <div class="timeline-body">
+    <h3>Computational Biologist I</h3>
+    <span class="timeline-company">Biochemistry Department and Proteomics Core · UT Southwestern Medical Center</span>
+    <p>Contributed to proteomics data analysis pipelines and computational support for biochemistry research, gaining foundational experience in mass spectrometry data processing and protein quantification.</p>
+  </div>
+</div>
+
+<div class="timeline-item">
+  <div class="timeline-date">2013 – 2014</div>
+  <div class="timeline-body">
+    <h3>Graduate Research Assistant</h3>
+    <span class="timeline-company">Vidyasagar Laboratory for Computational and Cancer Biology · The University of Texas at Dallas</span>
+    <p>Conducted research in computational cancer biology, applying sparse Bayesian learning methods to infer gene regulatory networks from expression data.</p>
+  </div>
+</div>
+
+<div class="timeline-item">
+  <div class="timeline-date">2008 – 2011</div>
+  <div class="timeline-body">
+    <h3>Systems Engineer</h3>
+    <span class="timeline-company">TATA Consultancy Services Limited · India</span>
+    <p>Worked as a systems engineer on enterprise software projects, building a foundation in large-scale software development, system design, and collaborative engineering practices.</p>
   </div>
 </div>
