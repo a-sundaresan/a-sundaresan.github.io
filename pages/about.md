@@ -21,7 +21,7 @@ I care deeply about reproducible science, well-documented code, and tools that e
 | | |
 |---|---|
 | **Current role** | HPC Engineer – Bioinformatics Specialist, The Scripps Research Institute |
-| **Experience** | 10+ years |
+| **Experience** | 12+ years |
 | **Expertise** | Multi-omics, NGS, single-cell, GWAS, ML/AI |
 | **Also building** | AI agentic workflows for scientific research |
 | **Publications** | 20+ peer-reviewed papers, 432 citations |
