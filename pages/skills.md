@@ -57,6 +57,7 @@ permalink: /skills/
     <h3>Genomics & Variant Analysis</h3>
     <ul>
       <li>GATK, FreeBayes, Picard</li>
+      <li>PLINK, METAL</li>
       <li>BWA, STAR, HISAT2</li>
       <li>Salmon</li>
       <li>Trimmomatic, FastQC</li>
