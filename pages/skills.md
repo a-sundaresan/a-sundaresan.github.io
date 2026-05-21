@@ -56,8 +56,6 @@ permalink: /skills/
     <h3>Statistics & Data</h3>
     <ul>
       <li>Biostatistics & regression analysis</li>
-      <li>Survival & longitudinal data analysis</li>
-      <li>Biomarker development & calibration</li>
       <li>Large-scale omics data management</li>
     </ul>
   </div>
