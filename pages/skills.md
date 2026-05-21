@@ -56,7 +56,7 @@ permalink: /skills/
   <div class="skill-group">
     <h3>Genomics & Variant Analysis</h3>
     <ul>
-      <li>GATK</li>
+      <li>GATK, FreeBayes, Picard</li>
       <li>BWA, STAR, HISAT2</li>
       <li>Salmon</li>
       <li>Trimmomatic, FastQC</li>
