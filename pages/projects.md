@@ -11,10 +11,10 @@ permalink: /projects/
 ## AI & Agentic Workflows
 
 <div class="card">
-  <h3>BulkRNASeq Agent — LangChain Agentic Workflow <span class="tag" style="vertical-align:middle;">In Progress</span></h3>
-  <p>An AI agent that automates end-to-end bulk RNA-seq analysis using LangChain. The agent orchestrates the full workflow — from raw data processing and quality control through alignment, quantification, differential expression, and pathway interpretation — reducing a multi-step manual pipeline to a single conversational interface.</p>
+  <h3>BulkRNASeq Agent — Anthropic SDK Agentic Workflow <span class="tag" style="vertical-align:middle;">In Progress</span></h3>
+  <p>An AI agent built with the Anthropic SDK that automates end-to-end bulk RNA-seq analysis. The agent orchestrates the full workflow — from raw data processing and quality control through alignment, quantification, differential expression, and pathway interpretation — reducing a multi-step manual pipeline to a single conversational interface.</p>
   <div class="tags">
-    <span class="tag">LangChain</span>
+    <span class="tag">Anthropic SDK</span>
     <span class="tag">Python</span>
     <span class="tag">RAG</span>
     <span class="tag">DESeq2</span>
