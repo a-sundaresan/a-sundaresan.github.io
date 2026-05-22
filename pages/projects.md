@@ -35,6 +35,21 @@ permalink: /projects/
   </div>
 </div>
 
+## Cancer Genomics
+
+<div class="card">
+  <h3>TCGA Somatic Mutation Explorer</h3>
+  <p>Exploratory analysis of TCGA pan-cancer somatic mutation data focused on KRAS, one of the most clinically significant oncogenes. Investigates mutation frequency across 30+ cancer types, amino acid change distribution, G12D hotspot prevalence, and clinical correlations in pancreatic adenocarcinoma. Includes statistical comparison of age at diagnosis between KRAS mutated and wild-type PAAD patients.</p>
+  <div class="tags">
+    <span class="tag">R</span>
+    <span class="tag">ggplot2</span>
+    <span class="tag">TCGA</span>
+    <span class="tag">MAF</span>
+    <span class="tag">dplyr</span>
+  </div>
+  <a href="https://github.com/a-sundaresan/TCGA-SomaticMutation-Explorer" target="_blank" rel="noopener">View code →</a>
+</div>
+
 ## Pipelines & Tools
 
 <div class="card">
