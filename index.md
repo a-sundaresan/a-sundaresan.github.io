@@ -5,7 +5,7 @@ title: Home
 
 <span class="eyebrow">Available for new opportunities</span>
 
-# Hi, I'm Aishwarya Sundaresan — *computational biologist building AI-powered science*
+# Hi, I'm Aishwarya Sundaresan — *senior computational scientist & AI/ML specialist*
 
 I build robust bioinformatics pipelines and apply machine learning to multi-omics data to uncover biological insights.
 
