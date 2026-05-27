@@ -4,6 +4,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
+
+  <!-- Open Graph / Social Media Preview -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://a-sundaresan.github.io{{ page.url }}" />
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} — {% endif %}Aishwarya Sundaresan" />
+  <meta property="og:description" content="Senior Computational Scientist & AI/ML Specialist — bioinformatics, multi-omics, and agentic AI workflows." />
+  <meta property="og:site_name" content="Aishwarya Sundaresan" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }} — {% endif %}Aishwarya Sundaresan" />
+  <meta name="twitter:description" content="Senior Computational Scientist & AI/ML Specialist — bioinformatics, multi-omics, and agentic AI workflows." />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
