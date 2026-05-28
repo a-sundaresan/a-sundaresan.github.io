@@ -26,7 +26,7 @@ permalink: /skills/
     <h3>Bioinformatics & Genomics</h3>
     <ul>
       <li>Bulk NGS: RNA-seq, ATAC-seq, ChIP-seq, CUT&amp;RUN</li>
-      <li>Single-cell & single-nucleus: scRNA-seq, scATAC-seq, snRNA-seq</li>
+      <li>Single-cell & single-nucleus: scRNA-seq, scATAC-seq, snRNA-seq, Perturb-seq</li>
       <li>Proteomics data analysis</li>
       <li>GWAS, meta-analysis & population genomics</li>
       <li>Multi-omics data integration</li>
