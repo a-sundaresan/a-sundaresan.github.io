@@ -25,6 +25,22 @@ permalink: /projects/
 </div>
 
 <div class="card">
+  <h3>scAdvisorAI — AI-powered scRNA-seq QC Advisor</h3>
+  <p>An interactive Shiny app that combines real-time quality control visualisation with an AI advisor powered by Claude Sonnet. Upload 10X CellRanger .h5 files, explore six QC metrics with live blue/grey filtering as sliders move, then let the AI analyze your data distributions and recommend optimal filtering thresholds — automatically applied to the sliders. Outputs a filtered Seurat object and a ready-to-use Methods section.</p>
+  <div class="tags">
+    <span class="tag">R</span>
+    <span class="tag">Shiny</span>
+    <span class="tag">Anthropic SDK</span>
+    <span class="tag">Seurat</span>
+    <span class="tag">10X Genomics</span>
+    <span class="tag">scRNA-seq</span>
+  </div>
+  <a href="https://a-sundaresan.shinyapps.io/scAdvisorAI/" target="_blank" rel="noopener">Live app →</a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/a-sundaresan/RShinyApps-scAdvisorAI" target="_blank" rel="noopener">View code →</a>
+</div>
+
+<div class="card">
   <h3>BulkRNASeq Agent — Anthropic SDK Agentic Workflow <span class="tag" style="vertical-align:middle;">In Progress</span></h3>
   <p>An AI agent built with the Anthropic SDK that automates end-to-end bulk RNA-seq analysis. The agent orchestrates the full workflow — from raw data processing and quality control through alignment, quantification, differential expression, and pathway interpretation — reducing a multi-step manual pipeline to a single conversational interface.</p>
   <div class="tags">
@@ -52,20 +68,6 @@ permalink: /projects/
 </div>
 
 ## Pipelines & Tools
-
-<div class="card">
-  <h3>scAdvisorAI — AI-powered scRNA-seq QC Advisor</h3>
-  <p>An interactive Shiny app that combines real-time quality control visualisation with an AI advisor powered by Claude Sonnet. Upload 10X CellRanger .h5 files, explore six QC metrics with live blue/grey filtering as sliders move, then let the AI analyze your data distributions and recommend optimal filtering thresholds — automatically applied to the sliders. Outputs a filtered Seurat object and a ready-to-use Methods section.</p>
-  <div class="tags">
-    <span class="tag">R</span>
-    <span class="tag">Shiny</span>
-    <span class="tag">Anthropic SDK</span>
-    <span class="tag">Seurat</span>
-    <span class="tag">10X Genomics</span>
-    <span class="tag">scRNA-seq</span>
-  </div>
-  <a href="https://github.com/a-sundaresan/RShinyApps-scAdvisorAI" target="_blank" rel="noopener">View code →</a>
-</div>
 
 <div class="card">
   <h3>Bulk RNA-seq DE Analysis — R Shiny App</h3>
