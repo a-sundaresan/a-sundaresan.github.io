@@ -12,7 +12,7 @@ permalink: /experience/
   <div class="timeline-date">2026 – Present</div>
   <div class="timeline-body">
     <h3>Scientific AI Enablement Engineer</h3>
-    <span class="timeline-company">The Scripps Research Institute</span>
+    <span class="timeline-company">Scripps Research</span>
     <p>Lead design and deployment of AI-powered scientific workflows, integrating LLMs and agentic pipelines into institute-wide research processes. Develop well-documented, self-service AI tools that empower distributed research teams to run complex analyses independently. Gather stakeholder requirements and translate them into scalable data products and AI-ready analytical frameworks.</p>
   </div>
 </div>
@@ -21,7 +21,7 @@ permalink: /experience/
   <div class="timeline-date">2025 – 2026</div>
   <div class="timeline-body">
     <h3>HPC Engineer – Bioinformatics Specialist</h3>
-    <span class="timeline-company">High Performance Computing · The Scripps Research Institute</span>
+    <span class="timeline-company">High Performance Computing · Scripps Research</span>
     <p>Optimised HPC infrastructure institute-wide, identifying recurring analytical bottlenecks across 10+ research groups and creating the foundation for AI-driven workflow automation. Administered SLURM job scheduling and deployed containerised reproducible pipelines across multi-omics workloads. Built AutoAnnotSC and scAdvisorAI — production agentic pipelines using the Anthropic SDK and Claude Sonnet — for automated scRNA-seq annotation and AI-guided QC, directly addressing researcher pain points and leading to the formal Scientific AI Enablement mandate.</p>
   </div>
 </div>
@@ -39,7 +39,7 @@ permalink: /experience/
   <div class="timeline-date">2021 – 2025</div>
   <div class="timeline-body">
     <h3>Bioinformatics Analyst III</h3>
-    <span class="timeline-company">Center for Computational Biology and Bioinformatics · The Scripps Research Institute</span>
+    <span class="timeline-company">Center for Computational Biology and Bioinformatics · Scripps Research</span>
     <p>Led end-to-end multi-omics data engineering and analysis — RNA-seq, ATAC-seq, ChIP-seq, scRNA-seq, scATAC-seq, GeoMx — supporting biomarker discovery, cohort definition, and patient stratification across oncology, immunology, and musculoskeletal disease. Built scalable Nextflow pipelines reducing NGS analysis turnaround from one week to 12 hours, adopted by 10+ research groups. Contributed bioinformatics analysis supporting multiple successful grant applications and high-impact publications.</p>
   </div>
 </div>
