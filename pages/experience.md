@@ -9,11 +9,29 @@ permalink: /experience/
 # Where I've worked
 
 <div class="timeline-item">
-  <div class="timeline-date">2025 – Present</div>
+  <div class="timeline-date">2026 – Present</div>
+  <div class="timeline-body">
+    <h3>Scientific AI Enablement Engineer</h3>
+    <span class="timeline-company">The Scripps Research Institute</span>
+    <p>Lead design and deployment of AI-powered scientific workflows, integrating LLMs and agentic pipelines into institute-wide research processes. Develop well-documented, self-service AI tools that empower distributed research teams to run complex analyses independently. Gather stakeholder requirements and translate them into scalable data products and AI-ready analytical frameworks.</p>
+  </div>
+</div>
+
+<div class="timeline-item">
+  <div class="timeline-date">2025 – 2026</div>
   <div class="timeline-body">
     <h3>HPC Engineer – Bioinformatics Specialist</h3>
     <span class="timeline-company">High Performance Computing · The Scripps Research Institute</span>
-    <p>Supporting and advancing HPC infrastructure for large-scale bioinformatics workloads, optimising computational pipelines and workflows across the institute's research community.</p>
+    <p>Optimised HPC infrastructure institute-wide, identifying recurring analytical bottlenecks across 10+ research groups and creating the foundation for AI-driven workflow automation. Administered SLURM job scheduling and deployed containerised reproducible pipelines across multi-omics workloads. Built AutoAnnotSC and scAdvisorAI — production agentic pipelines using the Anthropic SDK and Claude Sonnet — for automated scRNA-seq annotation and AI-guided QC, directly addressing researcher pain points and leading to the formal Scientific AI Enablement mandate.</p>
+  </div>
+</div>
+
+<div class="timeline-item">
+  <div class="timeline-date">2023 – Present</div>
+  <div class="timeline-body">
+    <h3>Bioinformatics Scientist – Industry Collaboration</h3>
+    <span class="timeline-company">BreakSight, Inc.</span>
+    <p>Designed and built a proprietary Nextflow pipeline to identify site-specific DNA double-strand break sequences from ChIP-seq-like data, directly supporting cancer target identification, drug development, and biomarker discovery. Trained and mentored an entry-level associate scientist in bioinformatics methods and end-to-end workflow execution.</p>
   </div>
 </div>
 
@@ -22,7 +40,7 @@ permalink: /experience/
   <div class="timeline-body">
     <h3>Bioinformatics Analyst III</h3>
     <span class="timeline-company">Center for Computational Biology and Bioinformatics · The Scripps Research Institute</span>
-    <p>Led end-to-end analysis of multi-omics datasets including bulk and single-cell sequencing. Developed scalable pipelines for NGS data processing and contributed to multiple high-impact publications across cancer biology and immunology.</p>
+    <p>Led end-to-end multi-omics data engineering and analysis — RNA-seq, ATAC-seq, ChIP-seq, scRNA-seq, scATAC-seq, GeoMx — supporting biomarker discovery, cohort definition, and patient stratification across oncology, immunology, and musculoskeletal disease. Built scalable Nextflow pipelines reducing NGS analysis turnaround from one week to 12 hours, adopted by 10+ research groups. Contributed bioinformatics analysis supporting multiple successful grant applications and high-impact publications.</p>
   </div>
 </div>
 
@@ -31,7 +49,7 @@ permalink: /experience/
   <div class="timeline-body">
     <h3>Computational Biologist II</h3>
     <span class="timeline-company">Cecil H. and Ida Green Center for Reproductive Biology Sciences · UT Southwestern Medical Center</span>
-    <p>Applied computational genomics approaches to reproductive biology research, including chromatin accessibility profiling and transcriptomic analysis of ovarian and epigenetic datasets.</p>
+    <p>Applied ATAC-seq and ChIP-seq profiling to characterise epigenetic mechanisms in renal cell carcinoma and reproductive biology, supporting multiple funded grant applications and renewals. Designed and delivered a weekly computational training workshop in shell scripting and R for 6–8 wet-lab scientists over 8 months.</p>
   </div>
 </div>
 
@@ -40,7 +58,7 @@ permalink: /experience/
   <div class="timeline-body">
     <h3>Bioinformatician I</h3>
     <span class="timeline-company">Department of Biostatistics, School of Public Health · University of Alabama at Birmingham</span>
-    <p>Performed genomic and statistical analyses supporting population-level studies, including GWAS and transcriptomic profiling across cancer and cardiovascular disease cohorts.</p>
+    <p>Designed data engineering pipelines for WES, WGS, RNA-seq, methylation, and lipidomics. Led GWAS meta-analysis for treatment outcome prediction across the CHARGE Consortium using population-scale datasets. Multi-omic biomarker analysis for patient cohort characterisation in HyperGEN and GOLDN, integrating omics data to identify novel cardiorenal biomarkers.</p>
   </div>
 </div>
 
@@ -49,7 +67,7 @@ permalink: /experience/
   <div class="timeline-body">
     <h3>Computational Biologist I</h3>
     <span class="timeline-company">Biochemistry Department and Proteomics Core · UT Southwestern Medical Center</span>
-    <p>Contributed to proteomics data analysis pipelines and computational support for biochemistry research, gaining foundational experience in mass spectrometry data processing and protein quantification.</p>
+    <p>Analysed LC-MS proteomics datasets and developed and maintained proteomics software and server infrastructure.</p>
   </div>
 </div>
 
@@ -58,7 +76,7 @@ permalink: /experience/
   <div class="timeline-body">
     <h3>Graduate Research Assistant</h3>
     <span class="timeline-company">Vidyasagar Laboratory for Computational and Cancer Biology · The University of Texas at Dallas</span>
-    <p>Conducted research in computational cancer biology, applying sparse Bayesian learning methods to infer gene regulatory networks from expression data.</p>
+    <p>Developed a sparse Bayesian learning algorithm for gene regulatory network inference, published at IEEE GlobalSIP 2013. Analysed TCGA expression data across lung, ovarian, and breast cancer.</p>
   </div>
 </div>
 
@@ -67,6 +85,6 @@ permalink: /experience/
   <div class="timeline-body">
     <h3>Systems Engineer</h3>
     <span class="timeline-company">TATA Consultancy Services Limited · India</span>
-    <p>Worked as a systems engineer on enterprise software projects, building a foundation in large-scale software development, system design, and collaborative engineering practices. Achieved Oracle Certified Java Programmer certification (2010).</p>
+    <p>Built enterprise banking software for Lloyds Banking Group; led mainframe-to-Java migration and designed a fault-tolerant mirror solution. Achieved Oracle Certified Java Programmer certification (2010).</p>
   </div>
 </div>
