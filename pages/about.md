@@ -20,7 +20,7 @@ I care deeply about reproducible science, well-documented code, and tools that e
 
 | | |
 |---|---|
-| **Current role** | HPC Engineer – Bioinformatics Specialist, The Scripps Research Institute |
+| **Current role** | Scientific AI Enablement Engineer, The Scripps Research Institute |
 | **Experience** | 12+ years |
 | **Expertise** | Multi-omics, NGS, single-cell, GWAS, ML/AI |
 | **Also building** | Agentic AI workflows for biological research automation |
