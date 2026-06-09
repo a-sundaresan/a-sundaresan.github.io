@@ -85,6 +85,6 @@ permalink: /experience/
   <div class="timeline-body">
     <h3>Systems Engineer</h3>
     <span class="timeline-company">TATA Consultancy Services Limited · India</span>
-    <p>Built enterprise banking software for Lloyds Banking Group; led mainframe-to-Java migration and designed a fault-tolerant mirror solution. Achieved Oracle Certified Java Programmer certification (2010).</p>
+    <p>Built enterprise banking software for Lloyds Banking Group; led mainframe-to-Java migration and designed a fault-tolerant mirror solution. Achieved Oracle Certified Java Programmer certification (2010) and Chordiant Certified Technical Developer certification (2011).</p>
   </div>
 </div>
