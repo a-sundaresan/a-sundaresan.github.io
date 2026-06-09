@@ -31,7 +31,7 @@ permalink: /experience/
   <div class="timeline-body">
     <h3>Bioinformatics Scientist – Industry Collaboration</h3>
     <span class="timeline-company">BreakSight, Inc.</span>
-    <p>Designed and built a proprietary Nextflow pipeline to identify site-specific DNA double-strand break sequences from ChIP-seq-like data, directly supporting cancer target identification, drug development, and biomarker discovery. Trained and mentored an entry-level associate scientist in bioinformatics methods and end-to-end workflow execution.</p>
+    <p>Designed and built a proprietary Nextflow pipeline to identify site-specific DNA double-strand break sequences from ChIP-seq-like data, directly supporting cancer target identification, drug development, and biomarker discovery.</p>
   </div>
 </div>
 
