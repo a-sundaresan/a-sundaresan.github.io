@@ -20,7 +20,4 @@ I'm open to full-time roles, contract projects, and interesting conversations. T
   <a href="https://www.linkedin.com/in/aishwarya-sundaresan/" target="_blank" rel="noopener" class="contact-link">
     🔗 <span>LinkedIn</span> <small>/in/aishwarya-sundaresan</small>
   </a>
-  <a href="/resume.pdf" class="contact-link">
-    📄 <span>Résumé</span> <small>Download PDF</small>
-  </a>
 </div>
