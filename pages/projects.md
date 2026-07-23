@@ -70,6 +70,21 @@ permalink: /projects/
 ## Pipelines & Tools
 
 <div class="card">
+  <h3>ChIPflow: End-to-end ChIP-seq Analysis Pipeline</h3>
+  <p>A modular, production-ready ChIP-seq pipeline built with Nextflow DSL2. Processes paired-end or single-end data from raw FASTQ through QC, alignment (STAR or Bowtie2), duplicate removal, ENCODE blacklist filtering, peak calling (MACS2), peak annotation and motif enrichment (HOMER), signal track generation, and an aggregated MultiQC report. Fully containerised with Singularity for reproducibility across HPC and cloud environments.</p>
+  <div class="tags">
+    <span class="tag">Nextflow</span>
+    <span class="tag">DSL2</span>
+    <span class="tag">Singularity</span>
+    <span class="tag">MACS2</span>
+    <span class="tag">HOMER</span>
+    <span class="tag">STAR</span>
+    <span class="tag">deepTools</span>
+  </div>
+  <a href="https://github.com/a-sundaresan/ChIPflow" target="_blank" rel="noopener">View code →</a>
+</div>
+
+<div class="card">
   <h3>Bulk RNA-seq DE Analysis: R Shiny App</h3>
   <p>A browser-based interactive tool for end-to-end differential expression analysis of bulk RNA-seq data. Upload your own count matrix and metadata, select comparison groups, and instantly get DESeq2 results alongside PCA, MA, and Volcano plots — no local R installation needed.</p>
   <div class="tags">
